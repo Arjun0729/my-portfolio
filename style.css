@@ -29,6 +29,7 @@ body {
   height: 96px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top; /* Adjusts the crop to prioritize the head/hair */
   border: 3px solid #38bdf8;
   margin-bottom: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
