@@ -153,3 +153,33 @@ section p {
   font-size: 0.85rem;
   font-weight: 500;
 }
+/* Mobile Optimization */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+    align-items: flex-start;
+  }
+
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .btn {
+    text-align: center;
+    width: 100%;
+  }
+}
