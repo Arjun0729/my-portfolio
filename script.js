@@ -11,3 +11,17 @@ statusBtn.addEventListener("click", function () {
     statusBtn.classList.remove("busy");
   }
 });
+// Theme Toggle Logic
+const themeToggleBtn = document.getElementById("theme-toggle");
+
+themeToggleBtn.addEventListener("click", function () {
+  // Toggle the 'light-theme' class on the <body> tag
+  document.body.classList.toggle("light-theme");
+
+  // Update the button icon depending on the active theme
+  if (document.body.classList.contains("light-theme")) {
+    themeToggleBtn.innerText = "🌙";
+  } else {
+    themeToggleBtn.innerText = "☀️";
+  }
+});
